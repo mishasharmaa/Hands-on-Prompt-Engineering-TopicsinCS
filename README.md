@@ -9,7 +9,8 @@ Task: Classify short customer messages as POSITIVE, NEGATIVE, or NEUTRAL. Good o
 === QUALITY CRITERIA === 
 1. Correct sentiment label. 
 2. Short, clear explanation. 
-3. Format: <LABEL> - <reason>. 
+3. Format: LABEL - reason. 
+
 === EVAL SET === 
 1. The product is amazing! 
 2. It stopped working after one day. 
