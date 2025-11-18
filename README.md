@@ -3,6 +3,7 @@
 ## Part 1 - Define Task 
 
 python3 part1_define_task.py 
+
 === TASK DESCRIPTION === 
 Task: Classify short customer messages as POSITIVE, NEGATIVE, or NEUTRAL. Good output gives correct label + short explanation. 
 === QUALITY CRITERIA === 
@@ -21,6 +22,7 @@ Task: Classify short customer messages as POSITIVE, NEGATIVE, or NEUTRAL. Good o
 ## Part 2 - Baseline Prompting 
 
 python3 part2_zero_shot.py
+
 === ZERO SHOT RESULTS === 
 Input: The product is amazing! 
 Output: POSITIVE - Expresses positive sentiment. 
@@ -42,6 +44,7 @@ Output: NEGATIVE - Expresses extreme dissatisfaction.
 ## Part 3 - Improve with Shots & Structure
 
 python3 part3_improvements.py 
+
 === FEW SHOT === 
 The product is amazing! 
 POSITIVE - expresses strong approval and excitement 
@@ -116,6 +119,7 @@ OUTPUT: NEGATIVE - The word "worst" expresses a negative sentiment.
 
 ## Part 4 - Prompt Attacks
 part4_prompt_attacks.py 
+
 === ATTACK RESULT === 
 NEGATIVE
 
