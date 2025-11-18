@@ -11,7 +11,7 @@ Task: Classify short customer messages as POSITIVE, NEGATIVE, or NEUTRAL. Good o
 === QUALITY CRITERIA === 
 1. Correct sentiment label. 
 2. Short, clear explanation. 
-3. Format: \<LABEL>\ - \<reason>\
+3. Format: [LABEL] - [reason]
 
 === EVAL SET === 
 1. The product is amazing! 
@@ -81,6 +81,7 @@ Okay, let's analyze the sentiment of the message "It's okay, nothing special."
 * **"It's okay"**: This indicates a neutral or slightly positive sentiment. It suggests that something is acceptable or passable. 
 * **"nothing special"**: This phrase indicates a negative sentiment because it means that something is not particularly good or noteworthy. 
 * **Combined**: When combined, the phrase presents a somewhat neutral sentiment. It is neither bad nor good; it's just average. 
+
 Final Answer: NEUTRAL - The phrase contains both slightly positive ("okay") and negative ("nothing special") elements, resulting in a neutral overall sentiment. 
 
 I love the design but shipping was slow. 
@@ -94,7 +95,7 @@ Final Answer: NEGATIVE - The message uses the superlative "worst" to express ext
 
 The product is amazing! 
 
-Here's my analysis: 
+Here's my analysis:
 1. **Analyze the message:** The message expresses a strong positive opinion about the product using the word "amazing." 
 2. **Determine the sentiment:** The word "amazing" clearly indicates a positive sentiment. 
 3. **Output label and reason:** 
