@@ -4,4 +4,4 @@
 
 1. Task Description & Eval Set
 
-The task is sentiment classification of short customer messages
+    The task is sentiment classification of short customer messages
