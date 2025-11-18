@@ -5,7 +5,9 @@
 python3 part1_define_task.py 
 
 === TASK DESCRIPTION === 
+
 Task: Classify short customer messages as POSITIVE, NEGATIVE, or NEUTRAL. Good output gives correct label + short explanation. 
+
 === QUALITY CRITERIA === 
 1. Correct sentiment label. 
 2. Short, clear explanation. 
