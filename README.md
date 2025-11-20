@@ -144,23 +144,17 @@ The task is sentiment classification of short customer messages. The model must 
 
 Good output criteria:
 
-Correct label
-
-Clear one-sentence explanation
-
-Stable, consistent formatting
+- Correct label
+- Clear one-sentence explanation
+- Stable, consistent formatting
 
 Eval Set
 
-The product is amazing!
-
-It stopped working after one day.
-
-It's okay, nothing special.
-
-I love the design but shipping was slow.
-
-Worst purchase ever.
+1. The product is amazing!
+2. It stopped working after one day.
+3. It's okay, nothing special.
+4. I love the design but shipping was slow.
+5. Worst purchase ever.
 
 2. Prompt Versions and Observations
 A. Zero-Shot (Baseline)
@@ -170,11 +164,9 @@ Used only instructions, no examples.
 
 Performance:
 
-Outputs were mostly correct
-
-Sometimes oversimplified mixed sentiment
-
-Formatting was consistent
+- Outputs were mostly correct
+- Sometimes oversimplified mixed sentiment
+- Formatting was consistent
 
 Accuracy: ~4/5
 
@@ -185,11 +177,9 @@ Added 3–5 labeled examples before the evaluation set.
 
 Performance:
 
-Better handling of mixed sentiment
-
-More consistent reasoning
-
-Correctly identified mixed messages
+- Better handling of mixed sentiment
+- More consistent reasoning-
+- Correctly identified mixed messages
 
 Accuracy: 5/5
 Few-shot improved nuance and stability.
@@ -201,11 +191,9 @@ Added “Think step by step before giving the label.”
 
 Performance:
 
-Produced detailed reasoning
-
-Stronger handling of ambiguous cases
-
-Slightly more verbose
+- Produced detailed reasoning
+- Stronger handling of ambiguous cases
+- Slightly more verbose
 
 Accuracy: 5/5
 Chain-of-thought improved carefulness of analysis.
@@ -217,13 +205,10 @@ Model produced an answer, then evaluated and corrected its own output.
 
 Performance:
 
-Most thorough reasoning
-
-Very robust sentiment classification
-
-Longest responses out of all versions
-
-Initially hit API quota limits, but logic worked correctly
+- Most thorough reasoning
+- Very robust sentiment classification
+- Longest responses out of all versions
+- Initially hit API quota limits, but logic worked correctly
 
 Accuracy: 5/5
 Self-critique provided the highest quality but cost more tokens.
@@ -242,8 +227,6 @@ Add a system instruction such as:
 
 4. Takeaways
 
-Few-shot examples had the biggest impact on consistency and correctness.
-
-Chain-of-thought improved reasoning, especially for mixed or ambiguous inputs.
-
-Self-critique produced the most accurate output, but is slower and uses more quota.
+- Few-shot examples had the biggest impact on consistency and correctness.
+- Chain-of-thought improved reasoning, especially for mixed or ambiguous inputs.
+- Self-critique produced the most accurate output, but is slower and uses more quota.
